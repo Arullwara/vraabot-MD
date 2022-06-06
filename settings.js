@@ -29,7 +29,7 @@ global.region = 'indonesia'// bebas
 // Keperluan buttons
 global.myweb = 'https://instagram.com/sahrulwara_____'
 global.sc = 'https://github.com/Arullwara/vraabot-MD'
-global.grupowner ='https://chat.whatsapp.com/JOxS05d1WWO529F40SEVEa'// GRUP LU 
+global.grupowner ='https://chat.whatsapp.com/LDN0EeJfASs0lbUhJsOJu1'// GRUP LU 
 // Wm
 global.packname = 'ArullBotzMD'//BEBAS
 global.author = 'ArullOfc'
