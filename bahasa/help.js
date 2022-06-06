@@ -3,7 +3,7 @@
 
 // Menu
 exports.menu = (salam, pushname) =>{
-	return`*Hai hihi👋 *i'm vraabot-MD This bot is a WhatsApp multi device Beta. if you find a bug or error, please forgive me, report it to the cerator so that it will be fixed immediately*🙏  
+	return`*Hai 👋 *i'm ArullBotz-MD ini adalah bot WhatsApp multi device*🙏  
 `
 }
 
