@@ -86,7 +86,7 @@ module.exports = kiki = async (kiki, m, chatUpdate, store) => {
                 if (!('antilink' in chats)) chats.antilink = false
             } else global.db.data.chats[m.chat] = {
                 mute: false,
-                antilink: false,
+                antilink: true,
             }
 		
 	    let setting = global.db.data.settings[botNumber]
@@ -96,7 +96,7 @@ module.exports = kiki = async (kiki, m, chatUpdate, store) => {
 		if (!('autobio' in setting)) setting.autobio = false
 	    } else global.db.data.settings[botNumber] = {
 		status: 0,
-		autobio: false,
+		autobio: true,
 	    }
 	    
         } catch (err) {
@@ -1145,13 +1145,13 @@ break
                     await sleep(1500)
                     let btn = [{
                                 urlButton: {
-                                    displayText: 'Youtube Owner',
-                                    url: 'https://youtube.com/channel/UCjjuhOD-Mt2XrKFptMVDysQ'
+                                    displayText: 'instagram Owner',
+                                    url: 'https://instagram.com/sahrulwara_____'
                                 }
                             }, {
                                 callButton: {
                                     displayText: 'Number Phone Owner',
-                                    phoneNumber: '+62 838-0884-0711'
+                                    phoneNumber: '+6285822347348'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -1169,7 +1169,7 @@ break
                                     id: 'grupowner'
                                 }
                             }]
-                      let txt = `「 Broadcast Bot 」\n\n${text}`
+                      let txt = `「 Broadcast ArullBotz 」\n\n${text}`
                       kiki.send5ButImg(i, txt, kiki.user.name, global.thumb, btn)
                     }
                 m.reply(`Sukses Mengirim Broadcast Ke ${anu.length} Group`)
@@ -1184,13 +1184,13 @@ break
 		    await sleep(1500)
 		    let btn = [{
                                 urlButton: {
-                                    displayText: 'Yotube Owner',
-                                    url: 'https://youtube.com/channel/UCjjuhOD-Mt2XrKFptMVDysQ'
+                                    displayText: 'instagram Owner',
+                                    url: 'https://instagram.com/sahrulwara_____'
                                 }
                             }, {
                                 callButton: {
                                     displayText: 'Number Phone Owner',
-                                    phoneNumber: '+62 838-0884-0711'
+                                    phoneNumber: '+6285822347348'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -2609,7 +2609,7 @@ case 'donasi': case 'buypremium': case 'donate': {
     }
 	break
     case 'grupowner':
-m.reply(`https://chat.whatsapp.com/JOxS05d1WWO529F40SEVEa`)
+m.reply(`https://chat.whatsapp.com/LDN0EeJfASs0lbUhJsOJu1`)
 break
             default:
                 if (budy.startsWith('=>')) {
